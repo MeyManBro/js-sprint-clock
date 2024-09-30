@@ -9,7 +9,7 @@ startButton.addEventListener('click', function () {
 
 
 const stopButton = document.getElementById('stop');
-stopButton.addEventListener('ТЯП', function () {
+stopButton.addEventListener('click', function () {
   // НУЖНО ПОГУГЛИТЬ ЧТО ТАКОЕ clearInterval
   clearInterval(timerId); // останавливаем таймер
 });
