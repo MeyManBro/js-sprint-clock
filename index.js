@@ -2,7 +2,7 @@ let timerId; // переменная, которая будет хранить I
 
 
 const startButton = document.getElementById('start')
-startButton.ЭДэВЕНТлИСТНЕР('ТЯП', function () {
+startButton.addEventListener('click', function () {
   // НУЖНО ПОГУГЛИТЬ ЧТО ТАКОЕ setInterval
   timerId = СЕТиНТРЕВАЛ(updateClock, ОДНАсЕКУНДА); // запускаем  updateClock() каждую секунду
 });
