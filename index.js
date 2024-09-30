@@ -8,7 +8,7 @@ startButton.addEventListener('click', function () {
 });
 
 
-const stopButton = ДОКУМЕНТ.ГЕТэЛЕМЕНТбАЙаЙДИ(КАКОЙ - ТО);
+const stopButton = document.getElementById('stop');
 stopButton.addEventListener('ТЯП', function () {
   // НУЖНО ПОГУГЛИТЬ ЧТО ТАКОЕ clearInterval
   clearInterval(timerId); // останавливаем таймер
