@@ -1,27 +1,24 @@
 body {
   background-color: rgb(0, 0, 0);
   color: rgb(54, 255, 47);
-  ПОДКЛЮЧАЕМ ШРИФТ
-  font-size: 50px
+  font-family: "Russo One", sans-serif;
+  font-size: 50px;
 }
-
 
 button {
   background-color: rgb(54, 255, 47);
   color: black;
   padding: 10px 20px;
   font-size: 16px;
-  ПОДКЛЮЧАЕМ ШРИФТ
+  font-family: "Russo One", sans-serif;
 }
-
 
 .clockCase {
-  ПОДКЛЮЧАЕМ ФЛЕКСЫ
-  ПО ЦЕНТРУ
+  display: flex;
+  justify-content: center;
 }
 
-
 .buttonCase {
-  ПОДКЛЮЧАЕМ ФЛЕКСЫ
-  ПО ЦЕНТРУ
+  align-items: center;
+  justify-content: center;
 }
